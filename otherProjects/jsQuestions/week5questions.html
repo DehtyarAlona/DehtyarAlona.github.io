@@ -380,11 +380,38 @@ function getTriangle(){
                             print = print + i + "<br/>";
                         }
                     }
+
+
+                    function printFooBar() {
+                    var print = "";
+                    var number = Number(1);
+                    for (i = Number(1); i <= 100; i++) {
+
+                      if (i % 3 == 0 && i % 5 == 0) {
+                        print = print + "FooBar" + "<br/>";
+                      } else if (i % 3 == 0) {
+                        print = print + "Foo" + "<br/>";
+                      } else if (i % 5 == 0) {
+                        print = print + "Bar " + "<br/>";
+                      } else {
+                        print = print + i  +"<br/>";
+                      }
+
+                    }
                     $("#q2result").html(print);
-                }
-                $("#q2button").on("click", function() {
+                    }
+
+                    $("#q2button").on("click", function() {
                     printFooBar();
-                });
+
+                    });
+
+
+
+
+
+
+                ;
                 $("#q3button").on("click", function() {
                     $("#q3result").html();
                 });
