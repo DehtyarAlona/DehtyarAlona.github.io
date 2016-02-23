@@ -440,9 +440,47 @@ function getTriangle(){
                 });
                 $("#q4button").on("click", function() {
                     $("#q4result").html();
+
+                   function countBs(bString) {
+                      var count = 0;
+                      for (var i = 0; i < bString.length; i++) {
+                        if (bString.charAt(i) == 'B') {
+                          count = (count + 1);
+                        }
+                      }
+                      return count;
+                    }
+
+
+                    $("#q4button").on("click", function() {
+
+                      var userInput = prompt("");
+                      var x = countBs(userInput);
+
+                      $("#q4result").html(x);
+                    });
                 });
                 $("#q5button").on("click", function() {
-                    $("#q5result").html();
+                    $("#q5result").html(); function countChar(cString, charMatch) {
+   var count = 0;
+   for (var i = 0; i < cString.length; i++) {
+     if (cString.charAt(i) == charMatch) {
+       count = (count + 1);
+     }
+   }
+   return count;
+ }
+ $("#q5button").on("click", function() {
+
+   var inputOne = prompt("");
+   var inputTwo = prompt("")
+
+   var t = countChar(inputOne, inputTwo)
+   $("#q5result").html(t);
+ });
+
+
+
                 });
 
             });
