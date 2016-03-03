@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: black;
 }
 nav{
     background-color: white;
@@ -31,18 +31,18 @@ nav{
   padding-bottom: 10px;
 }
 .green {
-  color: hotpink;
+  color: blue;
 }
 .allBorders {
-  border: 1px pink solid;
+  border: 1px blue solid;
 }
 .borderBottom {
-  border-bottom: 1px pink solid;
+  border-bottom: 1px blue solid;
 }
 .borderTop {
-  border-top: 1px pink solid;
+  border-top: 1px blue solid;
 }
 .borderLeftAndRight {
-  border-left: 1px pink solid;
-  border-right: 1px pink solid;
+  border-left: 1px blue solid;
+  border-right: 1px blue solid;
 }
