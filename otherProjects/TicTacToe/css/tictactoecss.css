@@ -1,3 +1,10 @@
+body{
+    background-color: grey;
+}
+nav{
+    background-color: white;
+}
+
 .row {
   margin-top: 5px;
 }
@@ -24,18 +31,18 @@
   padding-bottom: 10px;
 }
 .green {
-  color: green;
+  color: hotpink;
 }
 .allBorders {
-  border: 1px black solid;
+  border: 1px pink solid;
 }
 .borderBottom {
-  border-bottom: 1px black solid;
+  border-bottom: 1px pink solid;
 }
 .borderTop {
-  border-top: 1px black solid;
+  border-top: 1px pink solid;
 }
 .borderLeftAndRight {
-  border-left: 1px black solid;
-  border-right: 1px black solid;
+  border-left: 1px pink solid;
+  border-right: 1px pink solid;
 }
