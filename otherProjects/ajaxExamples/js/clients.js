@@ -1,5 +1,9 @@
 $("#getClients").on("click", function() {
 
-  alert("working");
+var url ="http://DehtyarAlona.github.io/otherProjects/ajaxExamples/json/clients.json"
+$.getJSON(url, function (data){
+alert(data);
+console.dir(data);
+})
 
 })
