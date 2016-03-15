@@ -1,6 +1,6 @@
-$.get("http://DehtyarAlona.github.io/Partial/nav.html", function(data){
+$.get("http://DehtyarAlona.github.io/Partial/nav.html",function(data){
 
-$(document).ready(function){
+$(document).ready(function(){
 
   $("container").prepend(data);
 
