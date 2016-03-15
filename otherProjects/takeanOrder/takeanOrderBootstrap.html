@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Alona Dehtyar</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<style>
+.col-md-6 {
+padding-top: 25px;
+}
+</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<body>
+
+<div class="container">
+    <div class="row">
+<div class="col-md-3"></div>
+      <div class="col-md-6"><!-- input-->
+        <input id="mySingleLineText" class="form-control" type="text" value="Type here">
+      </div>
+      <div class="col-md-3"></div>
+</div>
+<div class="row">
+      <div class="col-md-6"><!--textarea -->
+        <textarea id="myTextarea" class="form-control" rows="10" cols="50">Write something here</textarea>
+      </div>
+      <div class="col-md-6"><!--select -->
+        <select id="mySelect" class="form-control">
+          <option value="value1">Value 1</option>
+          <option value="value2" selected>Value 2</option>
+          <option value="value3">Value 3</option>
+        </select>
+          <div id="mySelectMessage"></div>
+      </div>
+
+      <div class="col-md-6"><!-- radio-->
+
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="gender" value="male" checked>
+            Male
+          </label>
+        </div>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="gender" value="female">
+            Female
+          </label>
+        </div>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="gender" value="other">
+            Other
+          </label>
+        </div>
+
+        <br>
+        <br>
+      </div>
+      <div class="col-md-6"><!-- checkbox-->
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="vehicle" value="Bike">
+            I have Facebook
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="vehicle" value="Car">
+            I have Instagram
+          </label>
+        </div>
+
+      </div>
+      <div class="col-md-6"><!--button -->
+        <button class="btn btn-default" id="myButton" type="button">Click Here</button>
+      </div>
+
+      <div class="col-md-6"><!--log -->
+          <div id="log">LOG</div>
+      </div>
+
+    </div>
+  </div>
+<script src="js/takeAnOrder.js"></script>
+</body>
+
+</html>
