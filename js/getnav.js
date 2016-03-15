@@ -9,3 +9,15 @@ $(document).ready(function(){
 })
 
 })
+
+$.get("http://DehtyarAlona.github.io/Partial/footer.html",function(data){
+
+$(document).ready(function(){
+
+  $(".container").append(data);
+  $(".container").fadeIn();
+
+
+})
+
+})
