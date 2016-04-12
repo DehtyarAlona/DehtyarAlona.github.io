@@ -22,9 +22,9 @@ $(document).ready(function () {
                     $("#pageContent").html(data);
                     $('.carousel').carousel();
                 })
-            } else if (partial == "seeIceCreamPage") { //ajax models.html
+            } else if (partial == "seeCarPage") { //ajax models.html
                 //paste the getJSON here; change the append id; change the file name
-                $.getJSON("json/finaljs.json", function (data) {
+                $.getJSON("otherProjects/finalProject/json/finaljs.json", function (data) {
 
                         console.dir(data);
                         var html = "";
