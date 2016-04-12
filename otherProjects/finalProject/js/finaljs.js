@@ -22,9 +22,9 @@ $(document).ready(function () {
                     $("#pageContent").html(data);
                     $('.carousel').carousel();
                 })
-            } else if (partial == "seeCarPage") { //ajax models.html
+            } else if (partial == "seeIceCreamPage") { //ajax models.html
                 //paste the getJSON here; change the append id; change the file name
-                $.getJSON("otherProjects/finalProject/json/finaljs.json", function (data) {
+                $.getJSON("json/finaljs.json", function (data) {
 
                         console.dir(data);
                         var html = "";
@@ -39,7 +39,7 @@ $(document).ready(function () {
                                     // '<div class="commentsContainer">';
 
                                     '<div class="panel panel-default">' + //added
-                                    '<div class="panel - heading">Click Here to Buy</div>'; //added
+                                    '<div class="panel - heading">Reviews</div>'; //added
                                 $.each(item.comments, function (ind, i) {
                                         html += '<div class="panel-body">' + //added
                                             '<div class ="buyerName">' + i.username + '</div>' +
@@ -118,8 +118,8 @@ $(document).ready(function () {
             })
 
             alert("Sending to database " + JSON.stringify(order));
-            $("#successMsg").html("Thank you for purchase!<br/><br/>" +
-                order.IceCreamSelect + " Will be delivered from Muscle Cars Ontario on " +
+            $("#successMsg").html("Thank you for your Purchase!<br/><br/>" +
+                order.IceCreamSelect + " Will be delivered from Muscle Cars Ontario " +
                 order.startOrderDate + "<img src='images/musclecaricon.png'>");
 
         } //sendConfirmation
