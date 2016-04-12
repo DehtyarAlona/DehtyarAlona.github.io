@@ -24,7 +24,7 @@ $(document).ready(function () {
                 })
             } else if (partial == "seeIceCreamPage") { //ajax models.html
                 //paste the getJSON here; change the append id; change the file name
-                $.getJSON("jsonDatabase/finaljson.json", function (data) {
+                $.getJSON("json/finaljs.json", function (data) {
 
                         console.dir(data);
                         var html = "";
