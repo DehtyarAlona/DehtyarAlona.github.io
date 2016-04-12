@@ -1,0 +1,67 @@
+[{
+    "name": "1969 CHEVROLET CAMARO Z28 ",
+    "horsepower": "290 Horsepower",
+    "price": "$92,600",
+    "image": "images/car1.jpg",
+    "comments": [{
+
+        "username": "CharlieDunkson",
+        "stars": 5,
+        "comment": "Need you, want you, will have you!"
+  }, {
+        "username": "JamesBrown",
+        "stars": 3,
+        "comment": "It's a little too much, but it's great for American Muscle"
+
+  }, {
+        "username": "Chevy101",
+        "stars": 4,
+        "comment": "Love this model, can never go wrong with a Chevy!"
+  }]
+
+}, {
+    "name": "1971 PLYMOUTH HEMI CUDA",
+    "horsepower": "405 Horsepower",
+    "price": "$340,000",
+    "image": "images/car2.jpg",
+    "comments": [{
+
+        "username": "CarCollector",
+        "stars": 5,
+        "comment": "This model is such a rare find, I need it!"
+  }, {
+        "username": "RarrisSafari",
+        "stars": 5,
+        "comment": "Probably one of the nicest muscle cars in the world"
+
+  }, {
+        "username": "vintagefreak",
+        "stars": 5,
+        "comment": "Can't wait to add this to my collection "
+  }]
+
+
+}, {
+    "name": "1968 SHELBY MUSTANG GT500-KR",
+    "horsepower": "360 Horsepower",
+    "price": "$129,000",
+    "image": "images/car3.jpg",
+    "comments": [{
+
+        "username": "majorkey",
+        "stars": 4,
+        "comment": "Beauty car, can't go wrong with that model! "
+  }, {
+        "username": "unrealbro",
+        "stars": 4,
+        "comment": "So sexy and sweet! "
+
+  }, {
+        "username": "StephanieLovesVintage",
+        "stars": 5,
+        "comment": "Shelby mustang is my dream car!"
+  }]
+
+
+
+}]
